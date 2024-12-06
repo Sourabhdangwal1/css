@@ -1,0 +1,30 @@
+/* *for universal */
+*{
+    font-family: cursive;
+    background-color: black;
+}
+
+/* for body only */
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    /* or in percentage */
+    font-weight: 100;
+}
+
+/* two classes can be updated together */
+#one,#two{ 
+    color:white;
+    background-color:yellow;
+}
+article>p{
+    /* or #imp blue */
+    color: blue;
+}
+
+/* . is for class */
+.first{
+    color: wheat;
+}
+/* id>class>element */
+/* we can use coolors for choosing colour for our website */

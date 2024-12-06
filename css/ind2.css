@@ -1,0 +1,16 @@
+main{
+    border: 5px solid brown;
+    width: 60%;
+    /* width:50%;  it gives 50% of parent*/
+    /* width: 50vw;
+    100% of the total width 
+    vw is absolute */
+}
+section{
+    border: 5px dashed yellow;
+    /* width: 50%; here width is 50% of its parent which is main */
+    width: 200vw;
+    /* 200vw will be greater in length as compared to its parent which is in percentage  */
+    height: 200vh;
+}
+/* em is relative to parent bydefault it is 1 em and it is used for font size */
